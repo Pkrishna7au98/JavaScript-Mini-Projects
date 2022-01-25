@@ -1,0 +1,47 @@
+.centered{
+    background-color: rgb(223, 207, 186);
+    width: 1000px;
+    height: 500px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 80px;
+    border: 4px solid rgb(86, 144, 219);
+    border-radius: 8px;
+    position: relative;
+}
+.centered .btn-r {
+    position: absolute;
+    top: 45%;
+    right: 3%;
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.centered .btn-p {
+    position: absolute;
+    top: 45%;
+    left: 3%;
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sizer{
+    object-fit: inherit;
+}
+
+img {
+    width: 998px;
+    height: 498px;
+    border: 1px solid #000;
+    object-fit: scale-down;
+  }

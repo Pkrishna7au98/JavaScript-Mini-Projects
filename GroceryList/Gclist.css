@@ -1,0 +1,45 @@
+body{
+    background-color: cornflowerblue;
+    background-image: linear-gradient(to right, rgb(235, 130, 130) , rgb(226, 226, 110));
+    align-content: center;
+}
+
+.outline{
+    width: 700px;
+    height: 100%;
+    position: inherit;
+    border: 5px solid cornsilk;
+    padding-top: 50px;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding-bottom: 30px;
+    background-color: whitesmoke;
+
+}
+
+.book-logo{
+    width: 35px; 
+    height: 45px;
+    margin: 0px 5px 5px 20px; 
+    border-radius: 5px;
+}
+
+.inpt{
+    font-family: "Lucida Console", "Courier New", monospace;
+    height: 45px;
+    width: 80%;
+    font-size: 20px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+.btn{
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.itemlist{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 70px;
+}

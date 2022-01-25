@@ -1,0 +1,27 @@
+#grad{
+    background-image:linear-gradient(to right,rgb(145, 145, 229), rgb(218, 127, 127))
+}
+
+.watch-area{
+    background-color: rgb(209, 201, 190);
+    height: 200px;
+    width: 600px;
+    margin-top: 200px;
+    margin-right: 350px;
+    margin-left: 350px;
+    border: 4px solid rgb(97, 89, 97);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.design{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 90px;
+}
+
+.Watchdesign{
+    margin-left: 45px;
+    display: flex;
+    text-align: center;
+}

@@ -1,0 +1,117 @@
+.header{
+    display: flex;
+    height: 50px;
+    background-color: rgb(201, 199, 199);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20pxpx;
+    border-radius: 5px;
+}
+
+.h1head{
+    margin: 0px 0px 0px 20px;
+}
+
+.btn1,.btn2{
+    height: 70%;
+    margin-top: 9px;
+    margin-right: 15px;
+    border: 2px solid rgb(107, 241, 95);
+    border-radius: 20px;
+}
+.btn1{
+    margin: 9px 20px 15px 900px;
+}
+
+#content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 50px 10px 50px;
+
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 5;
+    left: 33%;
+    top: 0;
+    width: 35%;
+    height: 65%;
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    border-radius: 15px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+background-color: #fefefe;
+margin: 15% auto; /* 15% from the top and centered */
+padding:20px;
+border: 1px solid #888;
+border-radius: 5px;
+width: 80%;
+height: 70%;
+}
+
+#qstn{
+    width: 90%;
+    height: 30px;
+}
+#ans{
+    width: 90%;
+    height: 60px;
+}
+
+#postfc, #close{
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+    border: 1px solid rgb(119, 70, 52);
+    border-radius: 5px;
+    background-color: rgb(77, 231, 77);
+    font-weight: bolder;
+}
+
+#close{
+    margin-left: 85px;
+    background-color: rgb(240, 99, 99);
+}
+
+#postfc:hover , #close:hover{
+    border-color: lawngreen;
+    box-shadow:2px 2px darkgray;
+}
+
+.cardbox{
+
+    width:350px ;
+    height: 200px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin:5px 10px 15px 20px;
+}
+
+.qcard{
+    word-wrap: break-word;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    width: 90%;
+    height: 30%;
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+}
+
+.acard{
+    word-wrap: break-word;
+    display: none;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    height: 55%;
+    margin-top: 10px;
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+}
