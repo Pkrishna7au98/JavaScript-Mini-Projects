@@ -1,0 +1,71 @@
+.header{
+    display: flex;
+    height: 120px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 6px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.headtitle{
+  font-size: 40px;
+  padding: 30px;
+  margin-right: 500px;
+}
+.mathop{
+  font-size: 25px;
+  margin: 40px 7px 0px 7px;
+}
+.mathop:hover{
+  color:rgb(251, 255, 0) ;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: lightgrey;
+    margin-top: 8px;
+
+  }
+  .flex-container1 {
+    margin:10px 0px 10px 10px;
+    display: flex;
+    width:75%;
+    height:500px;
+    flex-wrap: nowrap;
+    background-color: darkgrey;
+    border-radius: 10px;
+    
+  }
+  .flex-container2 {
+    margin:10px 10px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width:23%;
+    height:500px;
+    background-color: darkgrey;
+    border-radius: 10px;
+  }
+
+  .expression{
+    border-left: 10px solid black;
+    border-radius: 10px;
+    font-size: 200px;
+    text-align: center;
+    padding-top: 160px;
+    padding-left: 250px;
+  }
+  
+  .ans {
+    font-size: 100px;
+    margin-top: 10px;
+    margin-left: 12px;
+    text-align: center;
+    width: 90%;
+    height: 28%;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  .ans:hover{
+    background-color: cadetblue;
+  }

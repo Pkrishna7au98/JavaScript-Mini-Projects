@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/JS_Small_Projects/Math4Kids/m4k.css">
+    <title>Math4Kids</title>
+<body>
+    
+    <div class="header">
+        <div class="headtitle">Math 4 Kids</div>
+        <button href="" onclick="getId(this)" class="mathop" id="add">Addition</button>
+        <button href="" onclick="getId(this)" class="mathop" id="sub">Subtract</button>
+        <button href="" onclick="getId(this)" class="mathop" id="mul">Multiply</button>
+        <button href="" onclick="getId(this)" class="mathop" id="divd">Divide</button>
+    </div>
+    
+    <div class="flex-container">
+        <div class="flex-container1">
+              <div class="expression" id="expression"></div>
+        </div>
+        <div class="flex-container2">
+          <div class="ans" id="opt1" onclick="correct(this)"></div>
+          <div class="ans" id="opt2" onclick="correct(this)"></div>  
+          <div class="ans" id="opt3" onclick="correct(this)"></div>
+        </div>
+    </div>
+    
+    <script src="/JS_Small_Projects/Math4Kids/m4k.js"></script>
+</body>
+</html>
